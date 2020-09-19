@@ -3,10 +3,12 @@ package Realty;
 import java.util.Objects;
 
 public class House implements Comparable<House> {
-  private Window window;
-  private int price;
-  private int rooms;
-  private int area;
+
+  public Window window;
+
+  public int price;
+  public int rooms;
+  public int area;
 
   public House(Window window, int price, int rooms, int area) {
     this.window = window;
